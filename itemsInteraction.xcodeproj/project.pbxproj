@@ -12,6 +12,8 @@
 		44791FB6219CE69900A1914A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44791FB4219CE69900A1914A /* Main.storyboard */; };
 		44791FB8219CE69A00A1914A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44791FB7219CE69A00A1914A /* Assets.xcassets */; };
 		44791FBB219CE69A00A1914A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44791FB9219CE69A00A1914A /* LaunchScreen.storyboard */; };
+		44791FC3219CEA2E00A1914A /* Task1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44791FC2219CEA2E00A1914A /* Task1ViewController.swift */; };
+		44791FC5219CEA8A00A1914A /* Task2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44791FC4219CEA8A00A1914A /* Task2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		44791FB7219CE69A00A1914A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44791FBA219CE69A00A1914A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44791FBC219CE69A00A1914A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44791FC2219CEA2E00A1914A /* Task1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1ViewController.swift; sourceTree = "<group>"; };
+		44791FC4219CEA8A00A1914A /* Task2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				44791FB7219CE69A00A1914A /* Assets.xcassets */,
 				44791FB9219CE69A00A1914A /* LaunchScreen.storyboard */,
 				44791FBC219CE69A00A1914A /* Info.plist */,
+				44791FC2219CEA2E00A1914A /* Task1ViewController.swift */,
+				44791FC4219CEA8A00A1914A /* Task2ViewController.swift */,
 			);
 			path = itemsInteraction;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44791FC5219CEA8A00A1914A /* Task2ViewController.swift in Sources */,
+				44791FC3219CEA2E00A1914A /* Task1ViewController.swift in Sources */,
 				44791FB3219CE69900A1914A /* ViewController.swift in Sources */,
 				44791FB1219CE69900A1914A /* AppDelegate.swift in Sources */,
 			);
