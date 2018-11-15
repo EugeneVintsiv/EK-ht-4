@@ -14,6 +14,8 @@
 		44791FBB219CE69A00A1914A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44791FB9219CE69A00A1914A /* LaunchScreen.storyboard */; };
 		44791FC3219CEA2E00A1914A /* Task1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44791FC2219CEA2E00A1914A /* Task1ViewController.swift */; };
 		44791FC5219CEA8A00A1914A /* Task2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44791FC4219CEA8A00A1914A /* Task2ViewController.swift */; };
+		7C5F719C3B79F998AF2318F4 /* FrameCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5F7CC90F5FD9B54B4C37EE /* FrameCreator.swift */; };
+		7C5F7CC296548B177B45DA24 /* SliderCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5F7D99BBCF1654C587BB3A /* SliderCreator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		44791FBC219CE69A00A1914A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44791FC2219CEA2E00A1914A /* Task1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task1ViewController.swift; sourceTree = "<group>"; };
 		44791FC4219CEA8A00A1914A /* Task2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task2ViewController.swift; sourceTree = "<group>"; };
+		7C5F7CC90F5FD9B54B4C37EE /* FrameCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameCreator.swift; sourceTree = "<group>"; };
+		7C5F7D99BBCF1654C587BB3A /* SliderCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderCreator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,18 @@
 				44791FBC219CE69A00A1914A /* Info.plist */,
 				44791FC2219CEA2E00A1914A /* Task1ViewController.swift */,
 				44791FC4219CEA8A00A1914A /* Task2ViewController.swift */,
+				44791FC8219D16CA00A1914A /* component */,
 			);
 			path = itemsInteraction;
+			sourceTree = "<group>";
+		};
+		44791FC8219D16CA00A1914A /* component */ = {
+			isa = PBXGroup;
+			children = (
+				7C5F7D99BBCF1654C587BB3A /* SliderCreator.swift */,
+				7C5F7CC90F5FD9B54B4C37EE /* FrameCreator.swift */,
+			);
+			path = component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +159,8 @@
 				44791FC3219CEA2E00A1914A /* Task1ViewController.swift in Sources */,
 				44791FB3219CE69900A1914A /* ViewController.swift in Sources */,
 				44791FB1219CE69900A1914A /* AppDelegate.swift in Sources */,
+				7C5F7CC296548B177B45DA24 /* SliderCreator.swift in Sources */,
+				7C5F719C3B79F998AF2318F4 /* FrameCreator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
