@@ -40,5 +40,6 @@ class Task2ViewController: ViewController {
 //      0 - no transparency
 //      1 - full transparency
         frame.alpha = 1 - CGFloat(slider.value)
+        frame.layer.cornerRadius = 10 * CGFloat(slider.value);
     }
 }
