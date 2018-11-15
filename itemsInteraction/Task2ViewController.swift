@@ -10,5 +10,5 @@ import Foundation
 import UIKit
 
 class Task2ViewController: ViewController {
-    
+
 }
